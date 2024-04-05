@@ -1,0 +1,96 @@
+body {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b, #ffdc7e, #a5eb78, #61e786, #6fd5ed, #788bff, #b669ed, #ff7e5f);
+            background-size: 200% 200%;
+            animation: gradientAnimation 10s ease infinite;
+        }
+        @keyframes gradientAnimation {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+          padding-top: 40px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+ 
+.navbar {
+  background: linear-gradient(90deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            overflow: hidden;
+            z-index: 1000;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .navbar a {
+            float: left;
+            display: flex;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+          font-size: 17px;
+            transition: all 0.3s;
+        }
+        .navbar a:hover {
+            background-color: #555;
+          
+        }
+
+}
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  margin-top: 0;
+}
+
+
+p {
+    color: black;
+    line-height: 1.6;
+}
+
+
+.portfolio {
+    margin-bottom: 40px;
+}
+.portfolio h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+.portfolio .portfolio-item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.portfolio .portfolio-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.portfolio .portfolio-item img:hover {
+    transform: scale(1.05);
+}
+

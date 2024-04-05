@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="default-icon.png" type="image/png" id="dynamic-favicon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+       
+      <a href="navbar.html" target="_self" onclick="changeFavicon('home.png')">Home</a>
+        <a href="table.html" target="_self" onclick="changeFavicon('schedule.png')">Schedule</a>
+        <a href="https://joyjoy-123.github.io/FinalAudiow-LyricsOutput_InocencioJamaicaJoy/" target="_self" onclick="changeFavicon('playlist.png')">My Playlist</a>
+      <a href="https://joyjoy-123.github.io/MediaFile_InocencioOutput/" target="_self" onclick="changeFavicon('mv.png')">Music Video</a>
+      <a href="https://joyjoy-123.github.io/cshopmenu_inocencio/" target="_self"  onclick="changeFavicon('coffee.png')">Coffee Menu</a>  
+     
+   
+        
+      
+      
+      
+    </div>
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        <p>Hi there! I'm Joy, a 1st Year student currently studying Computer Science. I'm passionate 
+          about learning and want to explore some more new ideas, and I'm excited to share my journey with you!</p>
+          <p>As a student, one thing is always on my mind – how to improve academically and personally. For me,
+          every experience, be it inside or outside a classroom, means an opportunity for acquiring some fresh knowledge.</p>
+          <p>I hope you enjoy exploring my work and projects. Feel free to reach out if you'd like to collaborate or
+          just chat about my work. Let's learn and grow together!</p>
+        
+      
+        <h2>Portfolio</h2>
+          <center>
+        <div class="portfolio-item">
+          <p>Table Schedule</p>
+            <img src="schedimg.jpg" width="200" length="200">
+           </div>
+          
+        <div class="portfolio-item">
+          <p>Audio w/ Lyrics</p>
+            <img src="music.jpg" width="200" length="200">
+           </div>
+          
+          <div class="portfolio-item">
+          <p>Video, Song lyrics w/ Audio</p>
+            <img src="mv.jpg" width="200" length="200">
+           </div>
+          
+          <div class="portfolio-item">
+          <p>Coffee Menu Lists</p>
+            <img src="cshop.jpg" width="200" length="200">
+           </div>
+          </center>
+          
+          
+        <h2>Contact Me</h2>
+        <p>Interested in collab? Feel free to reach out!</p>
+        
+<style>
+    .social-link {
+        display: inline-block;
+        margin-right: 10px; 
+    }
+
+    .social-link i {
+        font-size: 40px;
+        vertical-align: middle; 
+    }
+
+    .social-link p {
+        display: inline-block;
+        margin: 0 10px;
+        vertical-align: middle; 
+    }
+    .contact-info {
+        display: inline-block;
+        margin-right: 10px; 
+    }
+
+    .contact-info i {
+        font-size: 32px;
+        vertical-align: middle; 
+    }
+
+    .contact-info p {
+        display: inline-block;
+        margin: 0 10px; 
+        vertical-align: middle; 
+    }
+
+</style>
+          
+<a href="https://www.facebook.com/profile.php?id=100084958797001" target="_blank" class="social-link">
+    <i class="fab fa-facebook"></i><p>Facebook</p>
+</a><br>
+
+           <a href="https://www.instagram.com/lluv_joy?igsh=czN5azM2am9xbmtz" target="_blank" class="social-link">
+    <i class="fab fa-instagram"></i><p>Instagram</p>
+</a><br>
+          
+<a href="https://www.tiktok.com/@_dampi?_t=8lFXSmDPYrY&_r=1" target="_blank" class="social-link">
+    <i class="fab fa-tiktok"></i><p>Tiktok</p>
+</a><br>
+
+<a href="mailto:inocenciojamaicajoy@gmail.com" class="social-link">
+    <i class="fas fa-envelope"></i><p>Gmail</p>
+</a><br>
+          
+          <a href="09506451191" class="contact-info">
+    <i class="fas fa-phone"></i>
+    <p>Phone Number</p>
+</a>
+          
+          <br>
+          <br>
+          
+    </div>
+    <footer>
+        <p>&copy; 2024 My Website. All Rights Reserved.</p>
+    </footer>
+          
+              <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+            
+</body>
+</html>
